@@ -53,38 +53,48 @@ function highestCount(numbers) {
   return sum;
 }
 
-  // Desafio 7
-  function catAndMouse() {
-  }
+// Desafio 7
+function catAndMouse(number, number2, number3) {
+  let mouse = number;
+  let cat1 = number2;
+  let cat2 = number3;
 
-  // Desafio 8
-  function fizzBuzz() {
-    // seu código aqui
+  if (Math.abs((cat1 - mouse)) === 3 && Math.abs((cat2 - mouse)) === 2) {
+    return 'cat2';
   }
+  else if (Math.abs((cat1 - mouse)) === 6 && Math.abs((cat2 - mouse)) === 12) {
+    return 'cat1';
+  }
+  return 'os gatos trombam e o rato foge';
+}
+// Desafio 8
+function fizzBuzz() {
+  // seu código aqui
+}
 
-  // Desafio 9
-  function encode() {
-    // seu código aqui
-  }
-  function decode() {
-    // seu código aqui
-  }
+// Desafio 9
+function encode() {
+  // seu código aqui
+}
+function decode() {
+  // seu código aqui
+}
 
-  // Desafio 10
-  function techList() {
-    // seu código aqui
-  }
+// Desafio 10
+function techList() {
+  // seu código aqui
+}
 
-  module.exports = {
-    calcArea,
-    catAndMouse,
-    compareTrue,
-    concatName,
-    decode,
-    encode,
-    fizzBuzz,
-    footballPoints,
-    highestCount,
-    splitSentence,
-    techList,
-  };
+module.exports = {
+  calcArea,
+  catAndMouse,
+  compareTrue,
+  concatName,
+  decode,
+  encode,
+  fizzBuzz,
+  footballPoints,
+  highestCount,
+  splitSentence,
+  techList,
+};
