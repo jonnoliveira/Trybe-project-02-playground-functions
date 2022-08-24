@@ -24,7 +24,8 @@ function splitSentence(str) {
 }
 
 // Desafio 4
-function concatName() {
+function concatName(str) {
+  return str[str.length - 1] + ', ' + str[0];
 
 }
 
