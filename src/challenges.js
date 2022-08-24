@@ -8,21 +8,24 @@ function compareTrue(value1, value2) {
   }
 
   return false;
+
 }
 
 // Desafio 2
 function calcArea(base, height) {
   return base * height / 2;
+
 }
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(str) {
+ return str.split(" ");
+
 }
 
 // Desafio 4
 function concatName() {
-  // seu código aqui
+
 }
 
 // Desafio 5
