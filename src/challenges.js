@@ -141,7 +141,7 @@ function decode(str){
 }
 // Desafio 10
 function techList() {
-  // seu código aqui
+  
 }
 
 module.exports = {
