@@ -1,15 +1,14 @@
 // Desafio 11
 function generatePhoneNumber() {
-  // seu código aqui
+  
 }
-
 // Desafio 12
 function triangleCheck(lineA, lineB, lineC) {
 
   if (lineA > lineB + lineC || lineA < Math.abs(lineB - lineC)) {
     return false;
   }
-  else if (lineB > lineA + lineC  || lineB < Math.abs(lineA - lineC)) {
+  else if (lineB > lineA + lineC || lineB < Math.abs(lineA - lineC)) {
     return false;
   }
   else if (lineC > lineA + lineB || lineC < Math.abs(lineA - lineB)) {
@@ -18,14 +17,26 @@ function triangleCheck(lineA, lineB, lineC) {
   return true;
 }
 
+// Desafio 13
+function hydrate(str) {
 
-  // Desafio 13
-  function hydrate() {
-    // seu código aqui
+  let a = str.match(/\d/g);
+  let b = 0;
+  for (let i = 0; i < a.length; i += 1) {
+    b += parseInt(a[i]);
   }
+  if (b >= 2) {
+    let resposta = b + ' copos de água';
+    return resposta;
+  }
+  else {
+    let resposta = b + ' copo de água';
+    return resposta;
+  }
+}
 
-  module.exports = {
-    generatePhoneNumber,
-    hydrate,
-    triangleCheck,
-  };
+module.exports = {
+  generatePhoneNumber,
+  hydrate,
+  triangleCheck,
+};
