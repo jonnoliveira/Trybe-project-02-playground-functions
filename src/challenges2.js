@@ -34,10 +34,7 @@ function generatePhoneNumber(array) {
   if (array.length !== 11) {
     return 'Array com tamanho incorreto.';
   }
-  else if (menor > 0 || maior > 0) {
-    return 'não é possível gerar um número de telefone com esses valores';
-  }
-  else if (sum >= 3) {
+  else if (menor > 0 || maior > 0 || sum >= 3) {
     return 'não é possível gerar um número de telefone com esses valores';
   }
   else {

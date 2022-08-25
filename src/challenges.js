@@ -139,6 +139,7 @@ function decode(str) {
   return string.join('');
 
 }
+
 // Desafio 10
 function techList(list, name) {
 list = ['React', 'Jest', 'HTML', 'CSS', 'JavaScript'];
