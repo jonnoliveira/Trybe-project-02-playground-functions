@@ -68,7 +68,7 @@ Neste projeto usei lógica de programação para implementar funções a fim de 
 
 ## 100% :heavy_check_mark:
 
-![Project-Lessons-Learned-Grade](https://github.com/jonnoliveira/trybe-project-02-playground-functions/blob/main/image/playground-functions-grade.png)
+![Project-Playground-Functions-Grade](https://github.com/jonnoliveira/trybe-project-02-playground-functions/blob/main/image/playground-functions-grade.png)
 
 </details> 
  
