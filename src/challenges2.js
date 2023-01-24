@@ -1,4 +1,4 @@
-// // Desafio 11
+// Desafio 11
 function generatePhoneNumber(array) {
   let number = [];
   let menor = 0;
