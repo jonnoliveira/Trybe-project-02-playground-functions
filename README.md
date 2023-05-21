@@ -31,35 +31,35 @@ Neste projeto usei lógica de programação para implementar funções a fim de 
 
 </summary>
 
-### I. Crie uma função usando o operador &&
+* I. Crie uma função usando o operador &&
 
-### II. Crie uma função que calcula a área de um triângulo
+* II. Crie uma função que calcula a área de um triângulo
 
-### III. Crie uma função que divida uma frase
+* III. Crie uma função que divida uma frase
 
-### IV. Crie uma função que use concatenação de strings
+* IV. Crie uma função que use concatenação de strings
 
-### V. Crie uma função que calcula a quantidade de pontos em um campeonato de futebol
+* V. Crie uma função que calcula a quantidade de pontos em um campeonato de futebol
 
-### VI. Crie uma função que calcula o número de repetições do maior número
+* VI. Crie uma função que calcula o número de repetições do maior número
 
-### VII. Crie uma função de Caça ao Rato
+* VII. Crie uma função de Caça ao Rato
 
-### VIII. Crie uma função FizzBuzz
+* VIII. Crie uma função FizzBuzz
 
-### IX. Crie uma função que Codifique e Decodifique
+* IX. Crie uma função que Codifique e Decodifique
 
-### X. Crie uma função de Lista de Tecnologias
+* X. Crie uma função de Lista de Tecnologias
 
 ---
  
 ## Requisitos Bônus
 
-### XI. Crie uma função de número de telefone
+* XI. Crie uma função de número de telefone
 
-### XII. Crie uma função que teste a condição de existência de um triângulo
+* XII. Crie uma função que teste a condição de existência de um triângulo
 
-### XIII. Crie uma função de boas vindas ao Bar da Trybe!
+* XIII. Crie uma função de boas vindas ao Bar da Trybe!
 
 </details>
 
